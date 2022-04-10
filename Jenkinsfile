@@ -17,6 +17,6 @@ node('Dev')
 	stage('Continuous Deployment') 
    
 	 {
-		sh label: '', script: '/home/ubuntu/workspace/workspace/Multibranch_master/webapp/target/webapp.war  ubuntu@10.0.0.103:/var/lib/tomcat8/webapps/qaenv.war' 
+		sh label: '', script: '/home/ubuntu/workspace/workspace/Multibranch_master/webapp/target/webapp.war  ubuntu@10.0.0.103:/var/lib/tomcat9/webapps/qaenv.war' 
     	}	
 }
